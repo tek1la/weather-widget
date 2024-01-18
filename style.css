@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    border-radius: 25px;
+    background-color: aquamarine;
+    padding: 15px;
+    gap: 10px;
+}
+
+.icon-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.temp-city-wraper {
+    margin-top: 15px;
+}
+
+.description-wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.city {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.temperature {
+    font-size: 65px;
+    font-weight: 400;
+    display: flex;
+}
+
+.info-wraper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15px;
+    width: 230px;
+}
+
+.info-wraper div {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.info-wraper > div {
+    width: 95px;
+}
+
+.info-wraper div:last-child div {
+    display: flex;
+    justify-content: center;
+}
+
+.pressure, .humidity, .speed, .deg {
+    margin-top: 5px;
+}
+
+.discript {
+    font-size: 18px;
+    font-weight: 600;
+}
